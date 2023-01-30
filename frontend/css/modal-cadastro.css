@@ -1,0 +1,111 @@
+
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-campos{
+    height: 70px;
+    width: 100%;
+}
+
+.row-aviso-tabela{
+    height: 30px;
+    text-align: center;
+}
+
+.row-tabela{
+    height: 165px;
+}
+
+
+.input-group-text{
+    border-color: rgb(15, 15, 20);
+    background-color: rgb(15, 15, 20);
+    color: rgb(83, 83, 83);
+    border-radius: 5px 0 0 5px;
+}
+
+#nome-cliente, #cpf-cliente, #nascimento-cliente,
+#descricao-add-divida, #valor-add-divida, #descricao-divida,
+#valor-divida{
+    border-radius: 0 5px 5px 0;
+}
+
+.form-control{
+    border-color: rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.btn-salvar{
+    border: none;
+    background-color: rgb(15, 15, 20);
+    color: rgb(211, 211, 211);
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.btn-salvar:hover{
+    color:rgb(46, 179, 255);
+    background-color: rgb(12, 14, 15);
+}
+
+.container-add-divida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#btn-adiciona{
+    border: none;
+    border-radius: 100px;
+    width: 1.6em;
+    height: 1.6em;
+    background-color: rgb(15, 15, 20);
+    color: rgb(211, 211, 211);
+}
+
+#btn-adiciona:hover{
+    color:rgb(46, 179, 255);
+    background-color: rgb(12, 14, 15);
+}
+
+.cabecalho-add-dividas:nth-child(1){
+    width: 60%;
+    /*DESCRICAO*/
+}
+.cabecalho-add-dividas:nth-child(2){
+    width: 20%;
+     /*VALOR*/
+}
+.cabecalho-add-dividas:nth-child(3){
+    width: 20%;
+     /*BOTOES*/
+}
+
+#conteudo-tabela-add-divida{
+    height: 90px;
+}
+
+.validacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    width: 100%;
+    gap: 0.5em;
+    height: 2.4em;
+    color: rgb(255, 91, 91);
+    text-align: center;
+}

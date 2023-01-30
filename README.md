@@ -1,5 +1,5 @@
 Vendinha
-Video apresentação no final
+
 
 Informações
 Api desenvolvida com C# .Net 6 utilizando o entity framwork para mapear as entidades e gerar as migrações FrontEnd foi desenvolvido com HTML 5, CSS, Bootstrap e JavaScript Foi utilizado o Xampp como servidor e o MySql para o banco (MariaDB) Sendo necessario ter o .Net 6 instalado na maquina, Xampp com o servidor e MySql em modo start para rodar o projeto
@@ -17,7 +17,7 @@ dotnet run
 
 A aplicação devera estar rodando no endereço:
 
-https://localhost:7049
+https://localhost:5500
 
 Rodando projeto frontend
 Abra a pasta do projeto frontend
